@@ -70,6 +70,7 @@ const Admin = (() => {
               <p style="color:var(--text-secondary); margin-top:4px; font-size:0.88rem;">kelola template & event photobooth</p>
             </div>
             <div class="btn-group">
+              <button class="btn btn-primary" id="btn-export-vercel">ekspor (vercel)</button>
               <a class="btn btn-ghost" href="#home">kembali ke beranda</a>
               <button class="btn btn-danger" id="btn-logout">logout</button>
             </div>
@@ -124,6 +125,22 @@ const Admin = (() => {
       logout();
       Utils.showToast('berhasil logout', 'info');
       renderLogin(container);
+    });
+
+    document.getElementById('btn-export-vercel')?.addEventListener('click', () => {
+      const data = {
+        templates: Templates.getTemplates(),
+        events: Templates.getEvents()
+      };
+      const jsContent = `window.PHOTOBOOTH_EXPORT = ${JSON.stringify(data, null, 2)};`;
+      const blob = new Blob([jsContent], { type: 'text/javascript' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'photobooth_data.js';
+      a.click();
+      URL.revokeObjectURL(url);
+      Utils.showToast('Berhasil diekspor! Timpa file di folder js/', 'success');
     });
 
     document.querySelectorAll('.admin-tab').forEach(tab => {

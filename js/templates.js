@@ -74,6 +74,14 @@ const Templates = (() => {
         let migratedTemplates = Utils.loadFromStorage('photobooth_templates_v14', null);
         let migratedEvents = Utils.loadFromStorage('photobooth_events_v14', null);
         
+        if (window.PHOTOBOOTH_EXPORT) {
+          Utils.saveToStorage(STORAGE_KEY, window.PHOTOBOOTH_EXPORT.templates || []);
+          Utils.saveToStorage(EVENTS_KEY, window.PHOTOBOOTH_EXPORT.events || []);
+          localStorage.setItem('photobooth_initialized', 'true');
+          log('Loaded configurations from EXPORT data.');
+          return;
+        }
+
         if (migratedTemplates && migratedTemplates.length > 0) {
           Utils.saveToStorage(STORAGE_KEY, migratedTemplates);
           Utils.saveToStorage(EVENTS_KEY, migratedEvents || []);
