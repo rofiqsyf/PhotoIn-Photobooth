@@ -70,7 +70,7 @@ window.PHOTOBOOTH_EXPORT = {
       "orientation": "portrait",
       "width": 1181,
       "height": 3543,
-      "is_active": true,
+      "is_active": false,
       "usage_count": 0,
       "uploaded_at": "2026-07-09T13:06:46.526Z"
     },
