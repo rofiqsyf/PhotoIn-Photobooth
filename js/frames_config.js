@@ -1,18 +1,8 @@
 window.PHOTOBOOTH_FRAMES = [
   {
-    "name": "Red PhotoIn",
+    "name": "Grateful!",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Red PhotoIn.png"
-  },
-  {
-    "name": "Saba Naraya 2026 1",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Saba Naraya 2026 1.png"
-  },
-  {
-    "name": "Valentine's Day",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Valentine's Day.png"
+    "image_path": "assets/frames/Grateful!.png"
   },
   {
     "name": "Newspaper Wonosobo City",
@@ -20,19 +10,9 @@ window.PHOTOBOOTH_FRAMES = [
     "image_path": "assets/frames/Newspaper Wonosobo City.png"
   },
   {
-    "name": "Newspaper Saba Naraya 2026",
+    "name": "Valentine's Day",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Newspaper Saba Naraya 2026.png"
-  },
-  {
-    "name": "Beautiful In The Dark",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Beautiful In The Dark.png"
-  },
-  {
-    "name": "Moments With Friends",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Moments With Friends.png"
+    "image_path": "assets/frames/Valentine's Day.png"
   },
   {
     "name": "PhotoIn 2024",
@@ -45,24 +25,14 @@ window.PHOTOBOOTH_FRAMES = [
     "image_path": "assets/frames/Saba Naraya 2026 2.png"
   },
   {
-    "name": "Happy Graduation 1",
+    "name": "Y2K Pink",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Happy Graduation 1.png"
+    "image_path": "assets/frames/Y2K Pink.png"
   },
   {
-    "name": "Pengen Berak",
+    "name": "Newspaper Saba Naraya 2026",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Pengen Berak.png"
-  },
-  {
-    "name": "Hari Terbaik",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Hari Terbaik.png"
-  },
-  {
-    "name": "Groovy",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Groovy.png"
+    "image_path": "assets/frames/Newspaper Saba Naraya 2026.png"
   },
   {
     "name": "Red Kamadiksi",
@@ -70,14 +40,9 @@ window.PHOTOBOOTH_FRAMES = [
     "image_path": "assets/frames/Red Kamadiksi.png"
   },
   {
-    "name": "Moment Capture",
+    "name": "Hari Terbaik",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Moment Capture.png"
-  },
-  {
-    "name": "Groovy Strip",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Groovy Strip.png"
+    "image_path": "assets/frames/Hari Terbaik.png"
   },
   {
     "name": "Furab Forever",
@@ -85,14 +50,14 @@ window.PHOTOBOOTH_FRAMES = [
     "image_path": "assets/frames/Furab Forever.png"
   },
   {
-    "name": "Y2K Pink",
+    "name": "Beautiful In The Dark",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Y2K Pink.png"
+    "image_path": "assets/frames/Beautiful In The Dark.png"
   },
   {
-    "name": "Good Vibes",
+    "name": "Groovy",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Good Vibes.png"
+    "image_path": "assets/frames/Groovy.png"
   },
   {
     "name": "No Bad Vibes",
@@ -100,8 +65,43 @@ window.PHOTOBOOTH_FRAMES = [
     "image_path": "assets/frames/No Bad Vibes.png"
   },
   {
-    "name": "Grateful!",
+    "name": "Saba Naraya 2026 1",
     "event_id": "evt_custom",
-    "image_path": "assets/frames/Grateful!.png"
+    "image_path": "assets/frames/Saba Naraya 2026 1.png"
+  },
+  {
+    "name": "Happy Graduation 1",
+    "event_id": "evt_custom",
+    "image_path": "assets/frames/Happy Graduation 1.png"
+  },
+  {
+    "name": "Moment Capture",
+    "event_id": "evt_custom",
+    "image_path": "assets/frames/Moment Capture.png"
+  },
+  {
+    "name": "Good Vibes",
+    "event_id": "evt_custom",
+    "image_path": "assets/frames/Good Vibes.png"
+  },
+  {
+    "name": "Pengen Berak",
+    "event_id": "evt_custom",
+    "image_path": "assets/frames/Pengen Berak.png"
+  },
+  {
+    "name": "Red PhotoIn",
+    "event_id": "evt_custom",
+    "image_path": "assets/frames/Red PhotoIn.png"
+  },
+  {
+    "name": "Moments With Friends",
+    "event_id": "evt_custom",
+    "image_path": "assets/frames/Moments With Friends.png"
+  },
+  {
+    "name": "Groovy Strip",
+    "event_id": "evt_custom",
+    "image_path": "assets/frames/Groovy Strip.png"
   }
 ];
