@@ -44,37 +44,6 @@ window.PHOTOBOOTH_EXPORT = {
       "uploaded_at": "2026-07-09T13:06:45.906Z"
     },
     {
-      "id": "tmpl_assetsframesJustFriendpng",
-      "name": "Just Friend",
-      "event_id": "evt_mrdjkjkxe0r0pza31",
-      "data_url": "assets/frames/Just Friend.png",
-      "layout": {
-        "type": "strip",
-        "slots": [
-          {
-            "x": 243,
-            "y": 276,
-            "w": 695,
-            "h": 978
-          },
-          {
-            "x": 243,
-            "y": 1565,
-            "w": 695,
-            "h": 974
-          }
-        ],
-        "w": 1181,
-        "h": 3543
-      },
-      "orientation": "portrait",
-      "width": 1181,
-      "height": 3543,
-      "is_active": false,
-      "usage_count": 0,
-      "uploaded_at": "2026-07-09T13:06:46.526Z"
-    },
-    {
       "id": "tmpl_assetsframesNoBadVibespng",
       "name": "No Bad Vibes",
       "event_id": "evt_mrdjlolsqt0ff0vr3",
