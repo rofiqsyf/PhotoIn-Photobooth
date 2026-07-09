@@ -364,6 +364,7 @@ h3 { font-size: clamp(1.3rem, 2vw, 1.8rem); }
 .border-picker-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem;
   max-width: 900px; margin: 0 auto;
+  padding-bottom: 6rem; /* Extra space at the bottom for mobile devices */
 }
 .border-card {
   position: relative; border-radius: var(--r-lg); overflow: hidden; cursor: pointer;
