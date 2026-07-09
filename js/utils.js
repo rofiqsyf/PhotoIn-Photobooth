@@ -170,8 +170,8 @@ const Utils = (() => {
                 }
               }
               
-              // Only consider it a valid slot if it's large enough (> 1% of total area)
-              if (area > (w * h * 0.01)) {
+              // Only consider it a valid slot if it's large enough (> 2% of total area)
+              if (area > (w * h * 0.02)) {
                 // Scale back to original image dimensions
                 slots.push({
                   x: Math.round(minX / scale),
