@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PhotoIn Digital — ambil foto langsung dari browser, pilih frame aesthetic, download & share ke sosmed. sempurna untuk wisuda, event kampus & acara spesial.">
+  <meta name="keywords" content="photobooth, digital, foto online, 4-cut, filmstrip, template frame, aesthetic">
+  <meta name="theme-color" content="#09090b">
+  <meta property="og:title" content="PhotoIn — snap it. frame it. share it.">
+  <meta property="og:description" content="ambil foto langsung dari browser dengan template frame premium. gratis!">
+  <meta property="og:type" content="website">
+  <title>PhotoIn</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📸</text></svg>">
+  <link rel="stylesheet" href="css/style.css?v=7">
+</head>
+<body>
+
+  <!-- Floating Pill Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-brand" onclick="window.location.hash='#home'">
+        <span class="brand-dot"></span>
+        PhotoIn
+      </div>
+
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+
+      <ul class="navbar-nav" id="navbar-nav">
+        <li><a class="nav-link active" data-view="home" href="#home">beranda</a></li>
+        <li><a class="nav-link" data-view="booth" href="#booth">booth</a></li>
+        <li><a class="nav-link" data-view="request" href="#request">request border</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Toasts -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="modal-content"></div>
+  </div>
+
+  <!-- Views -->
+  <div class="app-container">
+    <div class="view active" id="view-home"></div>
+    <div class="view" id="view-booth"></div>
+    <div class="view" id="view-preview"></div>
+    <div class="view" id="view-admin"></div>
+    <div class="view" id="view-request"></div>
+  </div>
+
+  <script src="js/utils.js?v=12"></script>
+  <script src="js/frames_config.js?v=1"></script>
+  <script src="js/templates.js?v=22"></script>
+  <script src="js/camera.js?v=10"></script>
+  <script src="js/composer.js?v=12"></script>
+  <script src="js/admin.js?v=14"></script>
+  <script src="js/app.js?v=18"></script>
+</body>
+</html>
