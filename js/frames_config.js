@@ -1,10 +1,5 @@
 window.PHOTOBOOTH_FRAMES = [
   {
-    "name": "Just Friend",
-    "event_id": "evt_custom",
-    "image_path": "assets/frames/Just Friend.png"
-  },
-  {
     "name": "Red PhotoIn",
     "event_id": "evt_custom",
     "image_path": "assets/frames/Red PhotoIn.png"
